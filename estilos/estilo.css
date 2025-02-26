@@ -1,7 +1,25 @@
-p {
-    color: #02290c /* color é a cor da letra (fonte) */
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #02290c;
+    text-align: justify;
+    background-size: cover;
+    margin: 50px;
+    padding: 10px;      
+    min-height: 100%;
+    
+
 }
 
+
+
+p {
+    color: #025717 /* color é a cor da letra (fonte) */
+    text-align: center;
+}
 h1 {
     color:rgb(0, 51, 198); /* color é a cor da letra (fonte) */
     text-align: center; /* Alinhamento de texto */
@@ -14,7 +32,7 @@ img {
 
 div {
     /*margin: 30px; TODAS AS MARGENS */
-    margin: 20px 40px 10px 30px; /* Superior, direita, Inferior, esquerda */
+   /* margin: 20px 40px 10px 30px; /* Superior, direita, Inferior, esquerda */
     padding-top: 10px; /* Espaçamento dentro do elemento */
 /*    
     margin-top;
@@ -28,9 +46,7 @@ label {
     margin-right: 20px;
 }
 
-.diferente {
-    margin-right: 30px;
-}
+
 
 /* 1) Coloque todos input type=text, type=email e select com a 
 largura de 150 px */
@@ -38,13 +54,19 @@ largura de 150 px */
     width: 150px;
 }
 
-/* 2) Coloque todos os botões com largura de 50 px */
-.botao {
-    width: 50px;
-}
-
-/* 3) Todos os botões "Limpar" com a cor de fundo verde */
 .limpar {
-    background-color:#02290c; /* Cor de fundo */
+    background-color: #02290c;
     color: #fff;
 }
+
+/* 2) Coloque todos os botões com largura de 50 px */
+.botao {
+    width: 50px;}
+
+   
+
+.img-fluid {
+    width: 50%;
+    height: 50%;
+}
+
